@@ -1,0 +1,14 @@
+.breadCrumb{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #4c3a3a;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}

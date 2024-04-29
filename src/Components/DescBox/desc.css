@@ -1,0 +1,39 @@
+.descbox{
+    margin:12px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.desc-nav{
+    display: flex;
+
+}
+.desc-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c3a3a;
+    margin: 12px 11px;
+    padding: 10px 20px;
+    border: 1px solid #b59f9f5e;
+}
+.desc-nav-box.fade{
+    background: #87767651;
+}
+.desc-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #8164647d;
+    padding: 20px;
+    border-radius: 10px;
+    text-transform:capitalize;
+    font-family: 'Poppins';
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    
+}

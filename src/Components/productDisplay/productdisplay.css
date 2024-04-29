@@ -1,0 +1,105 @@
+.productdisplay{
+    display:flex;
+    margin:50px 17px;
+}
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+     align-self: center;
+}
+.productdisplay-img-list{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    width: 105px;
+    
+}
+.productdisplay-main-image{
+ width: 586px;
+ height: 700px;   
+}
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #4c3a3a;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+.productdisplay-right-star{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    color: #4c3a3a;
+    font-size: 15px;
+}
+.productdisplay-right-prices{
+    display:flex;
+    gap: 10px;
+    margin: 40px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4c3a3a;
+}
+.productdisplay-price-old{
+    color: #4c3a3a;
+    text-decoration: line-through;
+}
+.productdisplay-price-new{
+    color: #e12424;
+    
+}
+.productdisplay-right-size h1{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+    font-weight: 600;
+    color: #4c3a3a;
+    font-size:20px;
+}
+.productdisplay-right-sizes{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.productdisplay-right-sizes div{
+    padding: 10px;
+    background: #c7c4c4;
+    border: 1px solid #ffffff;
+    color: #4a4545;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.productdisplay-right-sizes div:hover{
+    background: #e12424;
+    color: #ffffff;
+}
+.productdisplay-right button{
+    padding:20px 40px;
+    width: 200px;
+    font-size: 16px;
+    color:white;
+    background-color: #3f3333;
+    margin-bottom:20px;
+    margin-top: 20px;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.productdisplay-right button:hover{
+    background-color: #e12424;
+}
+.productdisplay-right-category{
+   margin-top: 7px;
+}
+.productdisplay-right-category span{
+    color: #4c3a3a;
+    font-size: 20px;
+    font-weight: 600;
+}
