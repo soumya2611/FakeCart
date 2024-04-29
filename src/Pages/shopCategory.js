@@ -32,7 +32,7 @@ const ShopCategory = (props) => {
               return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price}/>
           }
           else {
-
+             return null;
           }
         })}
       </div>
