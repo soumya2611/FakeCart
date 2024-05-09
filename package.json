@@ -1,6 +1,5 @@
 {
-  "homepage": "https://soumya2611.github.io/FakeCatrt",
-  "name": "frontend",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +14,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,9 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.1.1"
   }
+
 }
